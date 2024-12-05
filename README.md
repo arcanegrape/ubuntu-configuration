@@ -11,6 +11,7 @@ sudo dnf install git vim neovim curl tmux
 ## curl -s https://ohmyposh.dev/install.sh | zsh -s -- -t /home/arcanegrape/.themes
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 change theme to pygmalion
 
 curl -o .vimrc https://raw.githubusercontent.com/arcanegrape/ubuntu-configuration/main/.vimrc
