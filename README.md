@@ -8,7 +8,7 @@ chsh -s $(which zsh)
 
 sudo dnf install git vim neovim curl tmux
 
-## curl -s https://ohmyposh.dev/install.sh | zsh -s -- -t /home/arcanegrape/.themes
+``` curl -s https://ohmyposh.dev/install.sh | zsh -s -- -t /home/arcanegrape/.themes
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
@@ -19,3 +19,4 @@ curl -o .tmux.conf https://raw.githubusercontent.com/arcanegrape/ubuntu-configur
 
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 git clone https://github.com/christoomey/vim-tmux-navigator.git ~/.vim/pack/plugins/start/vim-tmux-navigator
+```
