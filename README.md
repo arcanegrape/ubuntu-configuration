@@ -13,7 +13,9 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 sudo dnf install git vim neovim curl tmux
 curl -s https://ohmyposh.dev/install.sh | sh -s -- -t /home/arcanegrape/.themes
 # add to ~/.bashrc
-eval "$(oh-my-posh init bash)" 
+eval "$(oh-my-posh init bash)"
+
+#install any nerdfont for proper rendering of symbols in oh-my-posh
 
 
 change theme to pygmalion
