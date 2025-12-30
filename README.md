@@ -41,3 +41,15 @@ autorandr --save docked
 autorandr --save mobile
 autorandr --change
 ```
+add to ~/.config/kitty/kitty.conf
+```
+background_opacity         0.5
+dynamic_background_opacity yes
+```
+```
+mkdir -p ~/.config/picom
+echo 'backend = "glx";' > ~/.config/picom/picom.conf
+```
+
+then add  to ~/.config/i3/config
+```exec_always --no-startup-id picom --config ~/.config/picom/picom.conf -b```
