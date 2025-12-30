@@ -35,5 +35,9 @@ git clone https://github.com/christoomey/vim-tmux-navigator.git ~/.vim/pack/plug
 
 ### Arch configuration
 
-``` sudo pacman -S feh xss-lock betterlockscreen feh bluez bluetui
+``` sudo pacman -S feh xss-lock betterlockscreen feh bluez bluetui arandr autorandr
 # to make feh work with jpg libwebp librsvg libheif libjxl openjpeg2
+autorandr --save docked
+autorandr --save mobile
+autorandr --change
+```
