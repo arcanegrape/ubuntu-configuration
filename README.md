@@ -31,3 +31,9 @@ curl -o .tmux.conf https://raw.githubusercontent.com/arcanegrape/ubuntu-configur
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 git clone https://github.com/christoomey/vim-tmux-navigator.git ~/.vim/pack/plugins/start/vim-tmux-navigator
 ```
+
+
+### Arch configuration
+
+``` sudo pacman -S feh xss-lock betterlockscreen feh bluez bluetui
+# to make feh work with jpg libwebp librsvg libheif libjxl openjpeg2
